@@ -370,7 +370,7 @@ export function PageShell({ children }: { children: React.ReactNode }) {
       </PageTransition>
       <footer className="relative z-10 border-t border-[#3E6259]/30 py-6 mt-12">
         <p className="text-center font-mono text-[10px] text-[#8B9C93]">
-          BUILT WITH NEXT.JS — {new Date().getFullYear()}
+          ---------------------------- — {new Date().getFullYear()}
         </p>
       </footer>
     </main>
